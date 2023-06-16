@@ -16,7 +16,7 @@ $answer=='unchanged';
 $result = (new App\functions)->getSortedModules($input_text);
 
 
-//$result=getSortedModules($input_text);  
+//$result=getSortedModules($input_text);   
 foreach ($result as $module_marks) {
 		$answer = $answer . $module_marks['module'] . ', ' . $module_marks['marks'] . 'newline';
 
